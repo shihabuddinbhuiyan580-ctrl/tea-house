@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script>
      tailwind.config = {
@@ -23,6 +23,31 @@
     <title>Tea House</title>
 </head>
 <body>
-    
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <header class=" flex pt-10 mb-20">
+        <!-- text content  -->
+         <div>
+           <h1 class="text-5xl md:text-7xl">It's good <br>tea time at The <br>Tea House</h1>
+           <br>
+           <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+           <br>
+           <button class="bg-gradient-to-r from-red-500 to-orange-500 px-5 py-3 rounded-lg font-bold
+            text-white ">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+        </div>
+          <!-- Image Content  --> 
+        <div class="relative">
+          <img src="images/banner.png" alt="" class="w-full ">
+          <!-- card -->
+           <div class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-24">
+            <!-- icon -->
+             <div class=""><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+             <div class="ml-2">
+              <h2 class="text-2xl font-bold">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+           </div>
+        </div>
+      </header>
+    </main>
 </body>
 </html>
